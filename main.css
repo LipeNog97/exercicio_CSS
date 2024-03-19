@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-image: url(./img/optimized_product_thumb_stage.jpg);
+    background-position: center center;
+    padding: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(88, 55, 12);
+}
+
+
+header li {
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: rgb(88, 55, 12);
+    text-decoration: none;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(2, 252, 239);
+
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(2, 252, 239);
+}
+
+.articles article h3 {
+    font-size: 24px;
+    padding: 16px;
+    color: rgb(2, 252, 239);
+}
+
+section h2{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#games {
+    background-image: url(./img/fundo\ caveir.png);
+    background-position: center center;
+}
+
+#filmes {
+    background-image: url(./img/cinema.avif);
+}
+.articles time {
+    color: rgb(2, 252, 239);
+}
+
+
